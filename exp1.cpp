@@ -77,3 +77,14 @@ int main() {
 
     return 0;
 }
+/*OUTPUT
+10 enqueued
+20 enqueued
+30 enqueued
+Queue elements: 10 20 30 
+10 dequeued
+Queue elements: 20 30 
+40 enqueued
+50 enqueued
+Queue is full
+Queue elements: 20 30 40 50 */
